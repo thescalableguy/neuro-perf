@@ -8,9 +8,9 @@ Average Response Time, Latency and Throughput as input features.
 *1. Upload CSV Dataset File with Average Response Time, Latency, Throughput, and P90 Response Time* <br>
 *2. Automatically trains a Random Forest Regression Model* <br>
 *3. Returns:* <br>
-    *- Mean Absolute Error*
-    *- Mean Squared Error*
-    *- R2 Score*
+    *- Mean Absolute Error* <br>
+    *- Mean Squared Error* <br>
+    *- R2 Score* <br>
 *3. No reconfig needed - works on any dataset matching column schema*
 *4. Restful API built on FastAPI - clean, async and Swagger-enabled*
 
