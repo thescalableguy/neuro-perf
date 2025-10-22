@@ -1,9 +1,9 @@
-#P90 Response Time Predictor
+# P90 Response Time Predictor
 
 A lightweight FastAPI-based Machine Learning microservice that predicts the 90th Percentile Response Time (P90) using 
 Average Response Time, Latency and Throughput as input features.
 
-#Features
+# Features
 
 *1. Upload CSV Dataset File with Average Response Time, Latency, Throughput, and P90 Response Time* <br>
 *2. Automatically trains a Random Forest Regression Model* <br>
@@ -14,7 +14,7 @@ Average Response Time, Latency and Throughput as input features.
 *3. No reconfig needed - works on any dataset matching column schema*
 *4. Restful API built on FastAPI - clean, async and Swagger-enabled*
 
-#Setup
+# Setup
 
 1. Clone the repository
 
@@ -33,15 +33,10 @@ pip install -r requirements.txt
 uvicorn app:app --port 9000 --reload
 ```
 
-#Test the API
+# Test the API
 
 4. Use Swagger UI
 
 ```
 Open your browser and go to http://127.0.0.1:9000/docs
 ```
-
-
-
-
-
