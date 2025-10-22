@@ -11,8 +11,8 @@ Average Response Time, Latency and Throughput as input features.
     *- Mean Absolute Error* <br>
     *- Mean Squared Error* <br>
     *- R2 Score* <br>
-*3. No reconfig needed - works on any dataset matching column schema*
-*4. Restful API built on FastAPI - clean, async and Swagger-enabled*
+*3. No reconfig needed - works on any dataset matching column schema* <br>
+*4. Restful API built on FastAPI - clean, async and Swagger-enabled* <br>
 
 # Setup
 
